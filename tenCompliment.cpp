@@ -11,9 +11,7 @@ int main() {
 
    while(m != 0){
        mask = (mask << 1) | 1;
-       cout<<"Mask is:"<<mask<<endl;
        m = m >> 1;
-       cout<<"Number is: "<<m<<endl;
    }
    int ans = (~n) & mask;
    cout<<ans<<endl;
